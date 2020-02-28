@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+}
+.top{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.cart{
+    color: white;
+    float: right;
+    padding-top: 7px;
+    text-align: center;
+}
+.cart p{
+    margin-top: 7px;
+}
+.cart a:link,.cart a:visited{
+    color: white;
+    text-decoration: none;
+}
+#icon :hover{
+    background: url(image/search.png) no-repeat 0px 0px;
+}
+.cart a:hover{
+    color: pink;
+}
+.logo{
+    border-bottom: solid 1px black;
+    text-align: center;
+    color: black;
+}
+.logo a:link,.logo a:visited{
+    color: black;
+    text-decoration: none;
+}
+.logo a:hover{
+    color: pink;
+}
+.menu{
+    padding-top: 10px;
+}
+#divLeft{
+    width: 70%;
+    height: 70px;
+    float: left;
+    padding-top: 10px;
+}
+#divRight{
+    width: 30%;
+    height: 70px;
+    float: right;
+    position: relative;
+    padding-top: 20px;
+}
+#divLeft ul{
+    list-style-type :none;
+}
+#divLeft ul li{
+    float: left;
+    padding-right: 47px;
+    font-size: 17px;
+}
+#divLeft ul li a{
+    text-decoration: none;
+    color: black;
+}
+#divLeft ul li a:hover{
+    color: pink;
+}
+#c_search{
+    position: relative;
+    float: right;
+}
+#btnSearch{
+    background: url(image/search.png) no-repeat 0px 0px;
+    display: inline-block;
+    padding-right: 14px;
+    padding-left: 9px;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: -1%;
+    top: 8px;
+}
+#txtSearch:hover{
+    border: solid 2px pink;
+}
+#txtSearch{
+    padding: 7px;
+    border: none;
+}
+.bnr img{
+    width: 100%;
+}
+.about{
+    padding-top: 50px;
+    height: 400px;
+}
+#imagenew{
+    width: 330px;
+    height: 330px;
+}
+.newproduct{
+    float: left;
+    width: 30%;
+    margin-left: 19.5px;
+    margin-right: 19.5px;
+}
+.product{
+    padding-top: 5px;
+
+}
+.merchandise{
+    border: solid 1px gray;
+    text-align: center  ;
+    float: left;
+    margin-right: 55px;
+    margin-left: 55px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.merchandise:hover{
+    border: solid 1px pink;
+}
+.info{
+    width: 25%;
+    float: left;
+    height: auto;
+    text-align: left;
+    font-size: 25px;
+}
+#fb{
+    list-style-image: url(image/icon_fb.png);    
+}
+#email{
+    list-style-image: url(image/icon_gmail.png);    
+}
+#gg{
+    list-style-image: url(image/icon_gg.png);    
+}
+.info ul a:link,.info ul a:visited{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.info ul a li{
+    padding-top:10px ;
+}
+.info ul a:hover{
+    color: pink;
+    font-size: 17px;
+}
+.info #txt2,.info #txt3,.info #txt4{
+    list-style-type: none;
+}
+.phanvung{
+    color: gray;
+    width: 100%;
+}
+.childFooter{
+    float: left;
+    width: 50%;
+    height: auto;
+}
+.footer{
+    padding-top: 10px;
+}
